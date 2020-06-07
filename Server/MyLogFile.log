@@ -1,0 +1,100 @@
+Jun 05, 2020 5:02:18 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Starting to add a company.
+Jun 05, 2020 5:02:18 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Read body from the request.
+Jun 05, 2020 5:02:18 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Checking if all the parameters are provided and formatted correctly.
+Jun 05, 2020 5:02:18 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Request was poorly formatted. Sending BadRequest response.
+Jun 05, 2020 5:04:04 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Starting to add a model.
+Jun 05, 2020 5:04:04 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Request was poorly formatted. Sending BadRequest response.
+Jun 05, 2020 5:04:32 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Starting to add a model.
+Jun 05, 2020 5:04:32 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Read body from the request.
+Jun 05, 2020 5:04:32 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Checking if all the parameters are provided and formatted correctly.
+Jun 05, 2020 5:04:32 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Sending Accepted response.
+Jun 05, 2020 5:42:54 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Starting to search for model.
+Jun 05, 2020 5:42:54 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Read body from the request.
+Jun 05, 2020 5:42:54 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Checking if all the parameters are provided and formatted correctly.
+Jun 05, 2020 5:42:54 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Sending Accepted response.
+Jun 05, 2020 5:43:04 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Starting to search for model.
+Jun 05, 2020 5:43:04 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Read body from the request.
+Jun 05, 2020 5:43:04 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Checking if all the parameters are provided and formatted correctly.
+Jun 05, 2020 5:43:04 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Sending Accepted response.
+Jun 05, 2020 5:43:10 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Starting to search for model.
+Jun 05, 2020 5:43:10 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Read body from the request.
+Jun 05, 2020 5:43:10 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Checking if all the parameters are provided and formatted correctly.
+Jun 05, 2020 5:43:10 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Sending Accepted response.
+Jun 05, 2020 5:43:14 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Starting to search for model.
+Jun 05, 2020 5:43:14 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Read body from the request.
+Jun 05, 2020 5:43:14 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Checking if all the parameters are provided and formatted correctly.
+Jun 05, 2020 5:43:14 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Sending Accepted response.
+Jun 05, 2020 5:43:26 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Starting to search for model.
+Jun 05, 2020 5:43:26 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Read body from the request.
+Jun 05, 2020 5:43:26 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Checking if all the parameters are provided and formatted correctly.
+Jun 05, 2020 5:43:26 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Request was poorly formatted. Sending BadRequest response.
+Jun 05, 2020 5:48:09 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Starting to search for model.
+Jun 05, 2020 5:48:09 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Read body from the request.
+Jun 05, 2020 5:48:09 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Checking if all the parameters are provided and formatted correctly.
+Jun 05, 2020 5:48:09 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Sending Accepted response.
+Jun 05, 2020 5:55:56 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Starting to search for model.
+Jun 05, 2020 5:55:56 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Read body from the request.
+Jun 05, 2020 5:55:56 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Checking if all the parameters are provided and formatted correctly.
+Jun 05, 2020 5:55:56 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Sending Accepted response.
+Jun 05, 2020 5:57:11 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Starting to sell a model.
+Jun 05, 2020 5:57:11 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Read body from the request.
+Jun 05, 2020 5:57:11 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Checking if all the parameters are provided and formatted correctly for selling.
+Jun 05, 2020 5:57:11 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Sending Accepted response.
+Jun 05, 2020 5:57:23 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Starting to sell a model.
+Jun 05, 2020 5:57:23 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Read body from the request.
+Jun 05, 2020 5:57:23 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Checking if all the parameters are provided and formatted correctly for selling.
+Jun 05, 2020 5:57:23 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Request was poorly formatted for selling. Sending BadRequest response.
+Jun 05, 2020 5:57:28 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Starting to sell a model.
+Jun 05, 2020 5:57:28 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Read body from the request.
+Jun 05, 2020 5:57:28 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Checking if all the parameters are provided and formatted correctly for selling.
+Jun 05, 2020 5:57:28 PM io.nikolozp.servlets.ParentServlet logMsg
+INFO: Request was poorly formatted for selling. Sending BadRequest response.
