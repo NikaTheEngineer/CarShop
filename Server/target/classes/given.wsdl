@@ -1,0 +1,56 @@
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:sch="http://www.nikolozp.io/GeneratePriceService" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.nikolozp.io/GeneratePriceService" targetNamespace="http://www.nikolozp.io/GeneratePriceService">
+    <wsdl:types>
+        <xs:schema xmlns:spr="http://www.nikolozp.io/GeneratePriceService" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.nikolozp.io/GeneratePriceService">
+            <xs:element name="GeneratePriceRequest">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Model" type="spr:ModelType"/>
+                    </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            <xs:complexType name="ModelType">
+                <xs:sequence>
+                    <xs:element name="ModelName" type="xs:string"/>
+                </xs:sequence>
+            </xs:complexType>
+            <xs:element name="GeneratePriceResponse">
+                <xs:complexType>
+                    <xs:simpleContent>
+                        <xs:extension base="xs:string">
+                            <xs:attribute name="price" type="xs:string"/>
+                        </xs:extension>
+                    </xs:simpleContent>
+                </xs:complexType>
+            </xs:element>
+        </xs:schema>
+    </wsdl:types>
+    <wsdl:message name="GeneratePriceRequest">
+        <wsdl:part element="tns:GeneratePriceRequest" name="GeneratePriceRequest"> </wsdl:part>
+    </wsdl:message>
+    <wsdl:message name="GeneratePriceResponse">
+        <wsdl:part element="tns:GeneratePriceResponse" name="GeneratePriceResponse"> </wsdl:part>
+    </wsdl:message>
+    <wsdl:portType name="GeneratePriceService">
+        <wsdl:operation name="GeneratePrice">
+            <wsdl:input message="tns:GeneratePriceRequest" name="GeneratePriceRequest"> </wsdl:input>
+            <wsdl:output message="tns:GeneratePriceResponse" name="GeneratePriceResponse"> </wsdl:output>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="GeneratePriceServiceSoap11" type="tns:GeneratePriceService">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="GeneratePrice">
+            <soap:operation soapAction=""/>
+            <wsdl:input name="GeneratePriceRequest">
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output name="GeneratePriceResponse">
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="GeneratePriceServiceService">
+        <wsdl:port binding="tns:GeneratePriceServiceSoap11" name="GeneratePriceServiceSoap11">
+            <soap:address location="http://localhost:8082/GeneratePriceService/generatePriceService"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>
