@@ -1,0 +1,169 @@
+{
+	"info": {
+		"_postman_id": "565c2f54-7f77-42a4-9998-68213fa97ec4",
+		"name": "Nikoloz_Petsvenidze_CarShop",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8082/Server/AddModelServlet",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"model\": \"C-class\",\n\t\"company\" : \"Mercedes\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8082/Server/AddModelServlet",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"Server",
+						"AddModelServlet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/Server/AddCompanyServlet",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"company\" : 1\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8082/Server/AddCompanyServlet",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"Server",
+						"AddCompanyServlet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/Server/SearchServlet",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"model\":\"M3\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8082/Server/SearchServlet",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"Server",
+						"SearchServlet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/Server/SellServlet",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"model\" : \"C-class\",\n\t\"company\" : \"Mercedes\",\n\t\"money\" : \"123\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8082/Server/SellServlet",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"Server",
+						"SellServlet"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8082/Server/GetCompanyServlet",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"company\" : \"o\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8082/Server/GetCompanyServlet",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"Server",
+						"GetCompanyServlet"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
