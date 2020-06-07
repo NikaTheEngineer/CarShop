@@ -17,7 +17,7 @@ public class Model {
     private int count;
 
     @Column(name = "price")
-    private int price;
+    private double price;
 
     @Column(name = "company_id")
     private int company_id;
@@ -54,11 +54,11 @@ public class Model {
         this.company_id = company_id;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 }

@@ -43,7 +43,7 @@ public class DatabaseController {
             try {
                 Model model = modelTypedQuery.getSingleResult();
                 logMsg(Level.INFO, "Model found.");
-                if(Integer.parseInt(obj.getString(MyConstants.MONEY)) >= model.getPrice()) {
+                if(Double.parseDouble(obj.getString(MyConstants.MONEY)) >= model.getPrice()) {
                     logMsg(Level.INFO, "Enough money, selling the product");
                     Transaction tr = session.beginTransaction();
                     if(model.getCount() == 1) {
